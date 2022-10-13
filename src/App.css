@@ -1,0 +1,174 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.banner-title {
+  position: absolute;
+  top: 20vh;
+  left: 5vw;
+}
+
+.banner-text {
+  position: absolute;
+  top: 30vh;
+  left: 5vw;
+  font-size: 1.7em !important;
+}
+
+.banner-img {
+  height: 100%;
+  width: 100%;
+}
+
+.movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 5rem 1rem 5rem;
+}
+
+.movie-card {
+  width: 12vw;
+  margin: 0.4em;
+  min-width: 230px;
+}
+
+.movie-img {
+  height: 38vh;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.movie-title {
+  position: absolute;
+  color: white;
+  left: 10%;
+  top: 5%;
+  font-weight: 500;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.favourite {
+  position: absolute;
+  top: 80%;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.heading {
+  margin-right: 20px;
+}
+
+.popup {
+  position: fixed;
+  right: 20px;
+  top: 10px;
+  opacity: 0;
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  transition: opacity 0.3s;
+  background-color: #26a69a;
+}
+
+i, .list-group{
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 513px) and (max-width: 1222px) {
+  .movie-card {
+    max-width: 230px !important;
+    width: 40vw;
+    margin: 0.5em;
+  }
+
+  .movies-list {
+    padding: 1px;
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .nav {
+    font-size: 20px;
+  }
+
+  .banner-title {
+    top: 8vh;
+  }
+
+  .banner-text {
+    top: 16vh;
+    font-size: 13px !important;
+  }
+
+  .movies-list {
+    padding: 1px;
+    margin: 0;
+  }
+
+  .movie-card {
+    width: 42vw;
+    min-width: 42vw;
+    margin: 0.5em;
+  }
+
+  .movie-img {
+    height: 30vh;
+  }
+
+  .favourite {
+    padding: 10px !important;
+  }
+
+  .list-group {
+    padding: 0.5em !important;
+  }
+
+  .container-fluid {
+    padding: 1.1em !important;
+  }
+}
