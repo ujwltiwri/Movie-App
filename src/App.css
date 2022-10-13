@@ -171,4 +171,8 @@ i, .list-group{
   .container-fluid {
     padding: 1.1em !important;
   }
+
+  .navbar{
+    padding: 0;
+  }
 }
