@@ -86,7 +86,7 @@ const Navbar = () => {
       </nav> */}
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             Movies App
           </a>
           <button
