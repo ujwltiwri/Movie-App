@@ -114,7 +114,7 @@
   background-color: #26a69a;
 }
 
-i, .list-group{
+i, .list-group, nav{
   cursor: pointer;
 }
 
